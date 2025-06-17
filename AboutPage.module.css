@@ -1,0 +1,25 @@
+/* App.css or global stylesheet */
+.fade-in {
+  animation: fadeIn 0.75s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+    filter: blur(6px);
+    letter-spacing: normal;
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(2px);
+    filter: blur(6px);
+    
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+    letter-spacing: normal;
+  }
+}
